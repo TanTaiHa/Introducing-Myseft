@@ -1,17 +1,17 @@
 const projects = [
   {
     title: "He He",
-    image: "../images/avatar.jpg",
+    image: "images/avatar.jpg",
     link: "https://example.com/project1",
   },
   {
     title: "Ho Ho",
-    image: "../images/bg.jpg",
+    image: "images/bg.jpg",
     link: "https://example.com/project2",
   },
   {
     title: "Hi Hi",
-    image: "../images/profile.jpg",
+    image: "images/profile.jpg",
     link: "https://example.com/project3",
   },
 ];
