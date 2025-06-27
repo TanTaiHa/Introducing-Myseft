@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <title>Ha Tan Tai - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" 
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <h1 onclick="loadSection('home')">TanTai</h1>
+        <div class="menu-toggle-wrapper">
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <span id="menu-icon">☰</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="popup-menu" class="popup-menu">
+      <div class="menu-wrapper">
+        <div class="menu-grid">
+          <a href="#" onclick="loadSection('home')"
+            ><img src="icons/chiikawa.jpg" alt="Home" />Home</a
+          >
+          <a href="#" onclick="loadSection('about')"
+            ><img src="icons/hachiware.jpg" alt="About" />About</a
+          >
+          <a href="#" onclick="loadSection('skills')"
+            ><img src="icons/kurimanju.jpg" alt="Skills" />Skills</a
+          >
+          <a href="#" onclick="loadSection('projects')"
+            ><img src="icons/momonga.jpg" alt="Projects" />Projects</a
+          >
+          <a href="#" onclick="loadSection('contact')"
+            ><img src="icons/usagi.jpg" alt="Contact" />Contact</a
+          >
+        </div>
+        <div class="menu-bottom-img">
+          <img src="images/chiikawa-characters.png" alt="Chiikawa Characters" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Dynamic content will load here -->
+    <div id="content"></div>
+
+    <!-- Explore More Button -->
+    <button id="explore-btn">↓ Roll or Click for More</button>
+
+    <!-- <footer class="main-footer">
+  <p>© 2025 Ha Tan Tai. Inspired by Chiikawa.</p>
+</footer> -->
+
+    <script src="js/main.js"></script>
+    <script src="js/project.js"></script>
+  </body>
+</html>
